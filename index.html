@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Timer</title>
+    <link rel="shortcut icon" href="images/icon-pomodoro.png" type="image/x-icon" id="icon">
+    
+</head>
+<body id="body">
+    <div id="container" class="container container-pomodoro">
+        <div id="options" class="options" option="pomodoro">
+            <button class="btn-pomodoro selected" onclick="pomodoro()">Pomodoro</button>
+            <button class="btn-short-break" onclick="shortBreak()">Short Break</button>
+            <button class="btn-long-break" onclick="longBreak()">Long Break</button>
+        </div>
+        <h1 id="counter">00:00</h1>
+        <div class="button">
+            <button onclick="start();" id="btn">START</button>
+        </div>
+        
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
